@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server-8082/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server-git-8083/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-order-server-9090/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-user-server-9091/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-8084/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-openfeign-demo/spring-cloud-openfeign-demo-server-service-9093/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-oauth-server-8085/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-mall-goods/spring-cloud-mall-goods-server-9093/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-mall-orders/spring-cloud-mall-orders-server-9094/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-mall-users/spring-cloud-mall-users-server-9095/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

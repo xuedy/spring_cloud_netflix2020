@@ -1,0 +1,6 @@
+env: dev
+spring:
+  application:
+    name: order-server-demo-9090
+server:
+  port: 9090

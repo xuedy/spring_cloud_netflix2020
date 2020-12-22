@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.0.61.75:8081/eureka,http://10.0.61.75:8082/eureka
+  instance:
+    hostname: 10.0.61.161
+spring:
+  cloud:
+    bus:
+      enabled: true
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server-8083
+  kafka:
+    bootstrap-servers: 10.0.61.34:9092,10.0.61.49:9092,10.0.61.108:9092
+    consumer:
+      client-id: user-server-demo-9095

@@ -1,0 +1,40 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka,http://localhost:8082/eureka
+#采用本地配置
+# spring:profiles:active: native
+spring:
+  application:
+    name: config-server-8083
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xuedy/spring-cloud-neflix-config.git
+          username: xuedy
+          password: 7788548xue
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 10.0.61.34:9092,10.0.61.49:9092,10.0.61.108:9092
+    consumer:
+      group-id: config-server
+server:
+  port: 8083
+
+# 调用POST接口 http://10.0.61.161:9090/actuator/refresh 可以刷新对应服务的配置信息  ,需要服务开启actuator
+# 消息总线
+# 调用POST接口 http://10.0.61.161:8083/actuator/bus-refresh 可以刷新对应注册中心，将信息推动到消息总线，被通知的服务需要接入消息总线 ，但是由于spring could不能解析git发送的数据，无法用githock 去触发实时刷新，
+#  调用POST http://localhost:8083/monitor JSON {"path":"*"}
+#  git可以配置 githock，自动刷新 ，利用ngrock 做一个内网暴露 （ngrock.exe http 8083）  http://07e01e6ad6d9.ngrok.io -> http://localhost:8001 ，配置http://10.0.61.161:8083/monitor?path=*，选择application/json当有修改会自动
+# eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-gateway-8080" />
+        <module name="untitled" />
+        <module name="spring-cloud-openfeign-demo-server-9093" />
+        <module name="spring-cloud-config-server-git-8083" />
+        <module name="spring-cloud-order-server-9090" />
+        <module name="spring-cloud-openfeign-demo-api" />
+        <module name="spring-cloud-user-server-9091" />
+        <module name="spring-cloud-mall-goods-api" />
+        <module name="spring-cloud-mall-goods-server-9093" />
+        <module name="spring-cloud-hystrix-dashboard-8084" />
+        <module name="spring-cloud-mall-users-server-9095" />
+        <module name="spring-cloud-eureka-server-8082" />
+        <module name="spring-cloud-eureka-server-8081" />
+        <module name="spring-cloud-mall-users-api" />
+        <module name="spring-cloud-openfeign-demo-server-service-9093" />
+        <module name="spring-cloud-xue-core-tools" />
+        <module name="spring-cloud-mall-orders-server-9094" />
+        <module name="spring-cloud-mall-orders-api" />
+        <module name="spring-cloud-openfeign-demo-server-api" />
+        <module name="spring-cloud-oauth-server-8085" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-hystrix-dashboard" target="1.8" />
+      <module name="spring-cloud-openfeign-demo-server-9093" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-config-server-git-8083" options="" />
+      <module name="spring-cloud-eureka-server-8081" options="" />
+      <module name="spring-cloud-eureka-server-8082" options="" />
+      <module name="spring-cloud-gateway-8080" options="" />
+      <module name="spring-cloud-hystrix-dashboard" options="-parameters" />
+      <module name="spring-cloud-hystrix-dashboard-8084" options="" />
+      <module name="spring-cloud-mall-goods-server-9093" options="" />
+      <module name="spring-cloud-mall-orders-server-9094" options="" />
+      <module name="spring-cloud-mall-users-server-9095" options="" />
+      <module name="spring-cloud-oauth-server-8085" options="" />
+      <module name="spring-cloud-openfeign-demo-server-9093" options="-parameters" />
+      <module name="spring-cloud-openfeign-demo-server-service-9093" options="" />
+      <module name="spring-cloud-order-server-9090" options="" />
+      <module name="spring-cloud-user-server-9091" options="" />
+    </option>
+  </component>
+</project>

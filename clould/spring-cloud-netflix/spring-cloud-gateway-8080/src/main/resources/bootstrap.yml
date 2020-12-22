@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.0.61.75:8081/eureka,http://10.0.61.75:8082/eureka
+#actuator 提供动态路由操作端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

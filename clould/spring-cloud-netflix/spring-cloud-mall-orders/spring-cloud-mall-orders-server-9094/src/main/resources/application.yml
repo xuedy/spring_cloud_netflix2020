@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mall-orders-server-9094
+  datasource:
+    url: jdbc:mysql://10.0.61.49:3306/test?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    password: 123456
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 9093
+mybatis:
+  type-aliases-package: com.xue.example.orderservice.mapper.entitys

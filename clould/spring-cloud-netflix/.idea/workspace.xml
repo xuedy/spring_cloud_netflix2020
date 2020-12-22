@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab0bf1f7-4f6a-4a47-9d9f-6b4a0caf3b44" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1greC5c6tMOef3Q1HQXnl7IxO80" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xue.example.springcloudorderserver9090.dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xue.example.orderservice.converter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\clould\spring-cloud-netflix\spring-cloud-mall-goods\spring-cloud-mall-goods-server-9093\src\main\java\com\xue\example\goodsservice\config" />
+      <recent name="D:\spring\clould\spring-cloud-netflix\spring-cloud-gateway-8080\src\main\resources" />
+      <recent name="D:\spring\clould\spring-cloud-netflix\spring-cloud-mall-users\spring-cloud-mall-users-server-9095\src\main\resources\generator" />
+      <recent name="D:\spring\clould\spring-cloud-netflix\spring-cloud-mall-orders\spring-cloud-mall-orders-server-9094\src\main\java\com\xue\example\orderservice\dto" />
+      <recent name="D:\spring\clould\spring-cloud-netflix\spring-cloud-mall-orders\spring-cloud-mall-orders-server-9094\src\main\resources\generator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudGateway8080Application">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xue.example.App" />
+      <module name="spring-cloud-xue-core-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xue.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlakeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.xue.example.common.utils.SnowFlakeGenerator" />
+      <module name="spring-cloud-xue-core-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xue.example.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigServerGit8083Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-config-server-git-8083" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudconfigservergit8083.SpringCloudConfigServerGit8083Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaServer8081Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-server-8081" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudeurekaserver8081.SpringCloudEurekaServer8081Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaServer8082Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-server-8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudeurekaserver8082.SpringCloudEurekaServer8082Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGateway8080Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-gateway-8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudgateway8080.SpringCloudGateway8080Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboard8084Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-hystrix-dashboard-8084" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudhystrixdashboard8084.SpringCloudHystrixDashboard8084Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudhystrixdashboard.SpringCloudHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudMallGoodsServer9093Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-mall-goods-server-9093" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudmallgoodsserver9093.SpringCloudMallGoodsServer9093Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudMallGoodsServer9093Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-mall-goods-server-9093" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xueexample.springcloudmallgoodsserver9093.SpringCloudMallGoodsServer9093Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudMallOrdersServer9094Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-mall-orders-server-9094" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudmallordersserver9094.SpringCloudMallOrdersServer9094Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudMallUsersServer9095Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-mall-users-server-9095" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudmallusersserver9095.SpringCloudMallUsersServer9095Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOauthServer8085Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-oauth-server-8085" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudoauthserver8085.SpringCloudOauthServer8085Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOauthServer8086Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-oauth-server-8085" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudoauthserver8085.SpringCloudOauthServer8085Application" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8086" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOpenfeignDemoServerService9093Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-openfeign-demo-server-service-9093" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloudopenfeigndemoserverservice9093.SpringCloudOpenfeignDemoServerService9093Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderServer9090Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-order-server-9090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudorderserver9090.SpringCloudOrderServer9090Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderServer9092Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-order-server-9090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springcloudorderserver9090.SpringCloudOrderServer9090Application" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9092" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudUserServer9091Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-user-server-9091" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.example.springclouduserserver9091.SpringCloudUserServer9091Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SnowFlakeGenerator" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Spring Boot.SpringCloudOauthServer8086Application" />
+      <item itemvalue="Spring Boot.SpringCloudConfigServerGit8083Application" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServer8081Application" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServer8082Application" />
+      <item itemvalue="Spring Boot.SpringCloudGateway8080Application" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboard8084Application" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.SpringCloudOrderServer9090Application" />
+      <item itemvalue="Spring Boot.SpringCloudOrderServer9092Application" />
+      <item itemvalue="Spring Boot.SpringCloudUserServer9091Application" />
+      <item itemvalue="Spring Boot.SpringCloudOpenfeignDemoServerService9093Application" />
+      <item itemvalue="Spring Boot.SpringCloudOauthServer8085Application" />
+      <item itemvalue="Spring Boot.SpringCloudMallGoodsServer9093Application" />
+      <item itemvalue="Spring Boot.SpringCloudMallGoodsServer9093Application (1)" />
+      <item itemvalue="Spring Boot.SpringCloudMallOrdersServer9094Application" />
+      <item itemvalue="Spring Boot.SpringCloudMallUsersServer9095Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SnowFlakeGenerator" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab0bf1f7-4f6a-4a47-9d9f-6b4a0caf3b44" name="Default Changelist" comment="" />
+      <created>1598877007334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598877007334</updated>
+      <workItem from="1598877012164" duration="4301000" />
+      <workItem from="1598885748836" duration="4099000" />
+      <workItem from="1598966875517" duration="17623000" />
+      <workItem from="1599052969504" duration="72644000" />
+      <workItem from="1599350668891" duration="92401000" />
+      <workItem from="1600248548444" duration="34640000" />
+      <workItem from="1601021050607" duration="3787000" />
+      <workItem from="1601363199662" duration="6419000" />
+      <workItem from="1601443905254" duration="5609000" />
+      <workItem from="1603184632952" duration="6452000" />
+      <workItem from="1604900992198" duration="595000" />
+      <workItem from="1605750494806" duration="1072000" />
+      <workItem from="1606439680526" duration="5133000" />
+      <workItem from="1608106332955" duration="1257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1608019948233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1608019948233" />
+    <state x="653" y="189" key="#SnowFlakeGenerator" timestamp="1600390521301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="189" key="#SnowFlakeGenerator/0.0.1920.1040@0.0.1920.1040" timestamp="1600390521301" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599575772080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599575772080" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600260668050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600260668050" />
+    <state x="388" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599581597350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="388" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599581597350" />
+    <state x="681" y="140" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599630687742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="140" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599630687742" />
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1600270347377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="462" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1600270347377" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603184765917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="227" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601281495373" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603184765917" />
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1601375699401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601375699401" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1600347317997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600347317997" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1600347317997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600347317997" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1600347317997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600347317997" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1600347317997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600347317997" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1603184523632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603184523632" />
+    <state x="664" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600271466354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600271466354" />
+    <state x="567" y="225" width="912" height="590" key="find.popup" timestamp="1599398334947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="225" width="912" height="590" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599398334946" />
+    <state x="329" y="145" key="new project wizard" timestamp="1601369922957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="329" y="145" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1601369922957" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599471112649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599471112649" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599704675658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599704675658" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.2.RELEASE/spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class</url>
+          <line>126</line>
+          <properties class="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient" method="getLoadBalancer">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-mall-goods/spring-cloud-mall-goods-server-9093/src/main/java/com/xue/example/springcloudmallgoodsserver9093/SpringCloudMallGoodsServer9093Application.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

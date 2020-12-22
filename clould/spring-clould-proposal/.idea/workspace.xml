@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49d6b332-34cc-48a5-b9b5-bacbc26f60bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gFoUvoIxWZynQJZIhPb2i8Xc8f" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="D:/dubbo/springbootdubbo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\clould\spring-clould-proposal\spring-cloud-gateway-9040\src\main\resources" />
+      <recent name="D:\spring\clould\spring-clould-proposal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spring\clould\spring-clould-proposal\spring-cloud-gateway-9040\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudGitConfigServerApplication">
+    <configuration name="SpringCloudGateway9040Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-gateway-9040" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloudgateway9040.SpringCloudGateway9040Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGitConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-git-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.config.springcloudgitconfigserver.SpringCloudGitConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloudhystrixdashboard.SpringCloudHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProposalEurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-proposal-eureka-server2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.proposal.springcloudproposaleurekaserver2.SpringCloudProposalEurekaServer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProposalEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-proposal-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.proposal.springcloudproposaleurekaserver.SpringCloudProposalEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringClouldProposalConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-clould-proposal-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.proposal.springclouldproposalconfigserver.SpringClouldProposalConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49d6b332-34cc-48a5-b9b5-bacbc26f60bb" name="Default Changelist" comment="" />
+      <created>1597719720756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597719720756</updated>
+      <workItem from="1597719727695" duration="65766000" />
+      <workItem from="1598343993219" duration="40218000" />
+      <workItem from="1598876039857" duration="4066000" />
+      <workItem from="1598886078151" duration="12487000" />
+      <workItem from="1599053328304" duration="18702000" />
+      <workItem from="1599397843858" duration="1974000" />
+      <workItem from="1599584530579" duration="230000" />
+      <workItem from="1603188279069" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Inspections" timestamp="1598365587075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1598365587075" />
+    <state x="655" y="305" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1598327017359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="305" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598327017359" />
+    <state x="669" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598415113464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598415113464" />
+    <state x="765" y="229" width="585" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1598452325029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" width="585" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598452325029" />
+    <state x="472" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599134101661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="472" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599134101661" />
+    <state width="456" height="466" key="DebuggerActiveHint" timestamp="1598335983041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="456" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598335983041" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603188430211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603188430211" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1599022493614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493614" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1599022493613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493613" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1599022493613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493613" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1599022493613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493613" />
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1599022493614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493614" />
+    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1599022493614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493614" />
+    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1599022493614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493614" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1599022493614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599022493614" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1598339961750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598339961750" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1598339961750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598339961750" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1598339961750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598339961750" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1598339961750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598339961750" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1598327152941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598327152941" />
+    <state x="693" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598359765770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598359765770" />
+    <state x="334" y="214" key="new project wizard" timestamp="1598876307075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598876307075" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598364009684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598364009684" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598454004125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598454004125" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-gateway-9040/src/main/java/com/example/springcloudgateway9040/AuthRoutePredicateFactory.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

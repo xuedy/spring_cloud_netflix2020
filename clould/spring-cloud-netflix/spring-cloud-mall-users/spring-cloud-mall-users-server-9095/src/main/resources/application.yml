@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user-server-9095
+  datasource:
+    url: jdbc:mysql://10.0.61.49:3306/test?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    password: 123456
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 9095
+mybatis:
+  type-aliases-package: com.xue.example.goodsservice.mapper.entitys

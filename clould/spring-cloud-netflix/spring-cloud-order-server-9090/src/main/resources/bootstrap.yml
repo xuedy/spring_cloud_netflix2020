@@ -1,0 +1,24 @@
+#如果用到外部的配置，需要保证外部最先加载
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.0.61.75:8081/eureka,http://10.0.61.75:8082/eureka
+  instance:
+    hostname: 10.0.61.161
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server-8083
+  kafka:
+    bootstrap-servers: 10.0.61.34:9092,10.0.61.49:9092,10.0.61.108:9092
+    consumer:
+      client-id: order-server-demo-9090
+#      profile: default
+# 开启Actuator 刷新端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,bus-refresh

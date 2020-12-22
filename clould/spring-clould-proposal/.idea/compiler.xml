@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-proposal-eureka-server2" />
+        <module name="spring-cloud-hystrix-dashboard" />
+        <module name="spring-cloud-git-config-server" />
+        <module name="spring-clould-proposal-config-api" />
+        <module name="spring-cloud-proposal-eureka-server" />
+        <module name="spring-cloud-gateway-9040" />
+        <module name="spring-clould-proposal-config-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-gateway-9040" options="" />
+      <module name="spring-cloud-git-config-server" options="" />
+      <module name="spring-cloud-hystrix-dashboard" options="" />
+      <module name="spring-cloud-proposal-eureka-server" options="" />
+      <module name="spring-cloud-proposal-eureka-server2" options="" />
+    </option>
+  </component>
+</project>

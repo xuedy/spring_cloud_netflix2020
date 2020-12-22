@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: user-server-demo-9091
+server:
+  port: 9091
+#指定微服务的负责均衡列表
+order-server-demo-9090:
+  ribbon:
+    listOfServers: 127.0.0.1:9090,127.0.0.1:9092
+#打开熔断
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enbale: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+      GoodsServiceFeignClient#getOrders():
+        isolation:
+          strategy: SEMAPHORE
+          semaphore:
+            maxConcurrentRequests: 10
+      GoodsServiceFeignClient#addGoods():
+        isolation:
+          strategy: THREAD
+          semaphore:
+            maxConcurrentRequests: 10
+  threadpool:
+    openfeign-demo-server-service-9093:
+      coreSize: 2
+      maxQueueSize: 1000
+      queueSizeRejectionThreadhold: 800
+ribbon:
+  ReadTimeout: 10000
+  ConnetTimeout: 10000

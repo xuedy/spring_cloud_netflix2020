@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: oauth-server-8085
+  redis:
+    host: 10.0.61.49
+    port: 6379
+server:
+  port: 8085

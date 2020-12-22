@@ -1,0 +1,37 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka,http://localhost:8082/eureka
+  instance:
+    hostname: 10.0.61.161
+GoodsServiceFeignClient:
+  ribbon:
+    #自定义心跳检测
+    NFLoadBalancerPingClassName: com.xue.example.springclouduserserver9091.registrar.MyPing
+    #自定义路由规则
+    NFLoadBalancerRuleClassName: com.xue.example.springclouduserserver9091.registrar.GcDefineIpHashRule
+spring:
+  cloud:
+    bus:
+      enabled: true
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server-8083
+  kafka:
+    bootstrap-servers: 10.0.61.34:9092,10.0.61.49:9092,10.0.61.108:9092
+    consumer:
+      client-id: user-server-demo-9091
+# 开启Actuator 刷新端口,hystrix.stream，允许hystrix 面板监控 http://localhost:9091/actuator/hystrix.stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,hystrix.stream,bus-refresh
+logging:
+  level:
+    com:
+      xue:
+        example:
+          feignclients:
+            GoodsServiceFeignClient: DEBUG

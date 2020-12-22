@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: eureka-server-8081
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      # 如果不配置，默认会找8761服务
+      defaultZone: http://localhost:8082/eureka
+    #默认不校验注册 ，否则会报错误日志 默认true
+    register-with-eureka: true
+    #启动时不加载服务端信息
+    fetch-registry: false
+  #eureka server自动保护机制，客户端每次默认发起2个心跳包，当触发自我保护机制的时候，可以正常注册，
+  #访问当服务真的不可用的时候，是如何避免误判，不会做服务注册间的相互同步，只限定在当前主机信息
+  #同步服务失败的等待时间，默认等待5分钟，改成10秒会触发错误告警
+  server:
+    #预期值=  n(注册节点个数)*2*比例（0.85）取整 >当实际收到的心跳值 就会开启自动保护机制
+    #预期收到心跳比例，默认85%
+    renewal-percent-threshold: 0.5
+    #关闭自我保护机制 默认true
+    #enable-self-preservation: false
+    #同步服务失败的等待时间，默认等待5分钟，
+    #wait-time-in-ms-when-sync-empty: 10000

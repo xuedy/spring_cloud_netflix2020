@@ -1,0 +1,4 @@
+com\xue\example\clients\IGoodsFeignClient.class
+com\xue\example\vo\ItemDetailVo.class
+com\xue\example\App.class
+com\xue\example\dto\ItemStockDto.class

@@ -1,0 +1,92 @@
+spring.application.name=gateway-server
+server.port=9040
+#服务注册中心
+eureka.client.service-url.defaultZone=http://localhost:9011/eureka,http://localhost:9010/eureka
+
+#针对普通路径路由转发
+#过滤的名字  - id: gateway_router  ‘-’ 代表可以配置多个
+spring.cloud.gateway.routes[0].id=gateway_router
+#gateway提供的路径 http://10.0.61.161:9040/gateway/queryOrd yml    - Path=/gateway/**
+spring.cloud.gateway.routes[0].predicates[0]=Path=/gateway/**
+ #请求转发是忽略访问路径的级数   - StripPrefix=1 代表配置多个
+ spring.cloud.gateway.routes[0].filters[0]=StripPrefix=1
+ #自定义filter
+ spring.cloud.gateway.routes[0].filters[1]=MyDefine=my xue
+ #要转发到的资源，即要映射到的地址
+ spring.cloud.gateway.routes[0].uri=http://localhost:8088/
+
+ #针对cookie的校验 注意如果添加了name cookie 会直接拦截跳转  http://10.0.61.161:9040/ 需要在请求中添加cookie  name=mic; path=/; domain=10.0.61.161;
+ spring.cloud.gateway.routes[1].id=cookie_router
+ spring.cloud.gateway.routes[1].predicates[0]=Cookie=name,mic
+ spring.cloud.gateway.routes[1].uri=http://www.baidu.com
+
+ #自定义断言 http://10.0.61.161:9040/define/1  auth 是自定义断言AuthRoutePredicateFactory 的前缀
+ spring.cloud.gateway.routes[2].id=define_router
+ spring.cloud.gateway.routes[2].predicates[0]=Path=/define/**
+ spring.cloud.gateway.routes[2].predicates[1]=Auth=Authorization,auth
+ spring.cloud.gateway.routes[2].filters[0]=StripPrefix=1
+ spring.cloud.gateway.routes[2].uri=http://www.baidu.com
+
+ #lb
+ spring.cloud.gateway.routes[3].id=lb_router
+ spring.cloud.gateway.routes[3].predicates[0]=Path=/lb/**
+ spring.cloud.gateway.routes[3].filters[0]=StripPrefix=1
+ spring.cloud.gateway.routes[3].uri=lb://xue-service-user
+ #全局路由
+ spring.cloud.gateway.discovery.locator.enabled=true
+ spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+ #限流
+ spring.cloud.gateway.routes[4].id=ratelimiter_router
+ spring.cloud.gateway.routes[4].predicates=Path=/ratelimiter/**
+ spring.cloud.gateway.routes[4].filters.name=RequestRateLimiter
+ spring.cloud.gateway.routes[4].filters=StripPrefix=1
+ spring.cloud.gateway.routes[4].filters.args.deny-empty-key=true
+ spring.cloud.gateway.routes[4].filters.args.key-resolver=#{@ipAddressKeyResolver}
+ spring.cloud.gateway.routes[4].filters.args.redis-rate-limiter.replenishRate=1
+ spring.cloud.gateway.routes[4].filters.args.redis-rate-limiter.burstCapacity=2
+ spring.cloud.gateway.routes[4].uri=lb://xue-service-user
+
+
+
+ spring.redis.host=10.0.61.49
+ spring.redis.port=6379
+
+
+查看路由
+http://10.0.61.161:9040/actuator/gateway/routes/{id}
+添加路由
+POST http://10.0.61.161:9040/actuator/gateway/routes/baidu_router
+{
+  "id": "first_route",
+  "predicates": [{
+    "name": "Path",
+    "args": {"_genkey_0":"/baidu"}
+  }],
+  "filters": [{
+  	"args":{
+  		"_genkey_0":1
+  	},
+  	"name":"StripPrefix"
+  }],
+  "uri": "https://www.baiud.com",
+  "order": 0
+}]
+刷新路由  CachingRouteLocator 參照去触发刷新
+POST http://10.0.61.161:9040/actuator/gateway/refresh
+添加成功
+{
+	"predicate": "Paths: [/baidu], match trailing slash: true",
+	"route_id": "baidu_router",
+	"filters": ["[[StripPrefix parts = 1], order = 1]"],
+	"uri": "https://www.baidu.com:80",
+	"order": 0
+}
+验证路由
+http://10.0.61.161:9040/baidu
+删除路由
+DELETE http://10.0.61.161:9040/actuator/gateway/routes/baidu_router
+
+GatewayControllerEndpoint 类提供了支持
+想让路由持久化，就需要重新save方法
+存储到对应的

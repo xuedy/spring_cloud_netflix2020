@@ -1,0 +1,75 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: gateway-server-test
+  redis:
+    host: 10.0.61.49
+    port: 6379
+    timeout: 50000
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://10.0.61.75:9411/
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: gateway_router
+          predicates:
+            - Path=/gateway/**
+          filters:
+            - StripPrefix=1
+            - MyDefine=my xue
+          uri: http://10.0.61.161:9090/
+        - id: cookie_router
+          predicates:
+            - Cookie=name,mic
+          uri: http://www.baidu.com
+        - id: define_router
+          predicates:
+            - Path=/define/**
+            - Auth=Authorization,auth
+          filters:
+            - StripPrefix=1
+          uri: http://www.baidu.com
+        - id: lb_router
+          predicates:
+            - Path=/lb/**
+          filters:
+            - StripPrefix= 1
+          uri: lb://user-server-demo-9091
+        - id: ratelimiter_router
+          predicates:
+            - Path=/ratelimiter/**
+          filters:
+            - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                deny-empty-key: true
+                keyResolver: '#{@ipAddressKeyResolver}'
+                redis-rate-limiter.replenishRate: 1
+                filters:args:redis-rate-limiter.burstCapacity: 2
+          uri: lb://user-server-demo-9091
+        - id: user_route_9095
+          uri: lb://user-server-9095
+          predicates:
+            - Path=/mall-user/**
+          filters:
+            - StripPrefix=1
+logging:
+  level:
+    root: info
+
+
+
+
+
+
+
+
+
